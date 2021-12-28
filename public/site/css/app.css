@@ -1,0 +1,364 @@
+.control_wrapper {
+    z-index: 1;
+}
+
+.dropdown_option>img,
+.dropdown_select>img {
+    max-width: 30px;
+    margin-right: 5px;
+    max-height: 18px;
+}
+
+
+
+.mini_text {
+    width: 100%;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mini_text>img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+}
+
+.btn-active {
+    background: #424242;
+}
+
+.article-content {
+    padding: 10px 15px;
+}
+
+.article .blog-bottom__category {
+    margin-top: 20px;
+}
+
+.blog-bottom__inner.article {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 0 2px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+.invalid-feedback {
+    color: #ff756a;
+    text-align: center;
+    display: none;
+    padding: 20px 0px 0px;
+    font-size: 16px;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 80%;
+    color: #e3342f;
+}
+
+@media (max-width: 991px) {
+    .invalid-feedback {
+        font-size: 14px !important;
+    }
+}
+
+.was-validated :invalid ~ .invalid-feedback,
+.was-validated :invalid ~ .invalid-tooltip,
+.is-invalid ~ .invalid-feedback,
+.is-invalid ~ .invalid-tooltip {
+    display: block;
+}
+
+#hire-designer .row {
+    display: flex;
+    justify-content: center;
+}
+
+#hire-designer .checkout__input:last-of-type {
+    margin-bottom: 12px;
+}
+
+textarea.checkout__input {
+    height: 100px;
+    line-height: 25px;
+}
+
+#hire-designer .checkout__form {
+    max-width: 750px;
+}
+
+.popup_content.preview {
+    justify-content: center;
+}
+
+.contnetnt_wrapper.preview {
+    pointer-events: none;
+    background-color: #F2F2F2;
+    background-image: radial-gradient(circle, #DBDADA 1%, transparent 10%), radial-gradient(circle, #DBDADA 1%, transparent 10%);
+    background-size: 30px 50px;
+    background-position: 0 0, 0px 25px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+.contnetnt_wrapper.preview > img {
+    width: 100%;
+}
+
+.default_select{
+	height: 100%;
+}
+
+.loading{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.41);
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.popup_content.preview {
+    justify-content: center;
+}
+
+.contnetnt_wrapper.preview {
+    justify-content: center;
+    pointer-events: none;
+    background-color: #F2F2F2;
+    background-image: radial-gradient(circle, #DBDADA 1%, transparent 10%), radial-gradient(circle, #DBDADA 1%, transparent 10%);
+    background-size: 30px 50px;
+    background-position: 0 0, 0px 25px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+.contnetnt_wrapper.preview > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.controlGradient {
+    width: 100%;
+    display: none;
+}
+
+.controlGradient > canvas {
+    height: 40px;
+}
+
+.controlGradient .gradientPicker-ctrlPt {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+input[type='checkbox']:invalid{
+	border: 1px solid red;
+}
+
+.warn_text{
+	color: red;
+}
+
+.swal2-popup{
+	border-radius: 0 !important;
+}
+
+body .swal2-actions .swal2-confirm.swal2-styled{
+	background: #363636;
+	box-shadow: inset 3px -4px 7px #4E6152;
+	border-radius: 51px;
+	height: 70px;
+	min-width: 230px;
+	padding: 10px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	min-height: 50px;
+	padding: 10px 30px;
+	background-color: #363636;
+}
+
+.swal2-confirm.swal2-styled:hover{
+	opacity: 0.7;
+}
+
+.control_wrapper {
+    user-select: none;
+}
+
+.module__slider_company .logo img, .splay_box img {
+    width: 90%;
+    height: auto;
+}
+
+.content_popup_item {
+    max-width: 157px;
+}
+
+.admin_mode_header{
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+
+.in_admin_mode.attention{
+	color: red;
+	font-weight: bold;
+}
+
+.ah_center{
+	display: flex;
+}
+
+.template_buttons .status {
+	color: green;
+}
+
+.template_buttons_edit .status {
+	color: green;
+    padding: 0 10px;
+    position: absolute;
+    right: 10px;
+    width: 63px;
+    text-align: right;
+}
+
+.template_buttons_edit {
+    justify-content: left;
+    position: relative;
+}
+
+.admin_template_editor {
+    margin-top: 10px;
+}
+
+.templates_item {
+    cursor: pointer;
+    min-width: 157px;
+    height: 159px;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 12px;
+    margin: 10px;
+    transition: 0.3s;
+    padding: 15px;
+    flex: 1;
+    max-width: 157px;
+    background: #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.templates_image {
+    height: 100px;
+}
+
+.templates_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.template_buttons_edit .status .lds-dual-ring {
+    transform: scale(.3);
+}
+
+.template_buttons_edit.disabled {
+    pointer-events: none;
+    opacity: .6;
+    user-select: none;
+}
+
+.save_form_swal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.save_form_swal label {
+    display: flex;
+}
+
+.save_form_swal label input {
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px;
+    border-bottom: 1px solid;
+
+}
+
+.save_form_swal label:last-child {
+    margin-top: 20px;
+}
+
+.save_form_swal label select {
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px;
+    border-bottom: 1px solid;
+    background: #ffff;
+}
+
+.swal2-actions .swal2-deny.swal2-styled {
+    box-shadow: inset 3px -4px 7px #4E6152;
+    border-radius: 51px;
+    height: 70px;
+    min-width: 230px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    min-height: 50px;
+    padding: 10px 30px;
+}

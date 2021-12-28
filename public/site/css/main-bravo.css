@@ -1,0 +1,373 @@
+/* ////////Why choose FreeLogoDesign/////// */
+
+.why_choose {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.why_icon_wrapper {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 36px 80px rgba(0, 0, 0, 0.04), 0px 10.8529px 24.1177px rgba(0, 0, 0, 0.0260636), 0px 4.50776px 10.0172px rgba(0, 0, 0, 0.02), 0px 1.63037px 3.62304px rgba(0, 0, 0, 0.0139364);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 71px;
+    height: 71px;
+    transform: skew(-10deg);
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.why_icon_wrapper svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) skew(10deg);
+}
+
+.why_item_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: normal;
+    margin-bottom: 16px;
+    color: #363636;
+}
+
+.why_item_txt p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #363636;
+}
+
+.why_item {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.why_item_content {
+    padding-top: 20px;
+}
+
+.create_logo {
+    flex-direction: column;
+    background: #F5F5F5;
+    border-radius: 12px;
+    text-align: center;
+    padding: 36px;
+}
+
+.create_logo .btn {
+    max-width: 192px;
+    margin: 0 auto;
+}
+
+.create_logo .why_item_title {
+    margin-bottom: 13px;
+}
+
+.create_logo .why_item_txt {
+    margin-bottom: 40px;
+}
+
+
+/* /////////////////////////////////// */
+
+
+/* //////////////Step Logo/////////////// */
+
+.step_logo {
+    background: #F5F5F5;
+    padding: 100px 0px;
+}
+
+.step_logo_item {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.step_number {
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%, -50%);
+}
+
+.step_number svg {
+    position: absolute;
+    top: -100%;
+    left: calc(-100% - 8px);
+}
+
+.step_number span {
+    position: relative;
+    left: 0px;
+    z-index: 100;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.step_txt p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #363636;
+}
+
+.step_logo .about__title-wrapper {
+    margin-bottom: 140px;
+    width: 100%;
+}
+
+.btn_wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.step_logo .btn_wrapper {
+    margin-top: 30px;
+}
+
+.step_logo [class*='col-'] {
+    display: flex;
+}
+
+/* /////////////////////////////////// */
+
+
+/* ////////////Fastest Logo//////////// */
+
+.fast_logo {
+    padding-top: 60px;
+}
+
+.fast_logo .about__img img {
+    border-radius: 12px;
+}
+
+.top_submenu {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 89.4%;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.about__text p a {
+    color: #31D955;
+    text-decoration: underline;
+}
+
+.fast_logo .title_h1 {
+    max-width: 673px;
+    margin: 0 auto;
+}
+
+
+/* /////////////////////////////////// */
+
+
+/* ///////////Our Team////////// */
+
+.our_team {
+    padding-top: 100px;
+}
+
+.team_item {
+    padding: 0px 6px;
+}
+
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
+.team_img_wrapper {
+    width: 100%;
+    height: 260px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    transform: skew(-10deg, 0deg);
+    margin-bottom: 20px;
+}
+
+.team_img_wrapper img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    transform: skew(10deg, 0deg) scale(1.1);
+    position: absolute;
+    object-fit: cover;
+}
+
+.team_item_name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: normal;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 5px;
+}
+
+.team_item_position p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    color: #363636;
+}
+
+
+/* /////////////////////////////////// */
+
+
+/* ////////////Cars Price///////////// */
+
+.price_card {
+    margin-top: 90px;
+}
+
+.card {
+    box-shadow: 0px 45px 40px rgba(0, 0, 0, 0.05), 0px 10.0513px 8.93452px rgba(0, 0, 0, 0.0298054), 0px 2.99255px 2.66004px rgba(0, 0, 0, 0.0201946);
+    border-radius: 12px;
+    background: #FFFFFF;
+    position: relative;
+    top: -30px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card.black {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    top: 0px;
+}
+
+.card_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 89.4%;
+    text-align: center;
+    color: #363636;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.05);
+    border-radius: 12px 12px 0px 0px;
+    padding: 30px 0px;
+}
+
+.card .price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 89.4%;
+    text-align: center;
+    color: #31D955;
+    padding: 30px 0px;
+}
+
+.card .bt_wrapper {
+    margin-bottom: 30px;
+}
+
+.advantages {
+    padding: 30px;
+}
+
+.advantages_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.advantages_item:last-child {
+    margin-bottom: 0px;
+}
+
+.advantages_item svg {
+    margin-right: 15px;
+}
+
+.advantages_txt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 89.4%;
+    color: #363636;
+}
+
+.card.black .price {
+    color: #363636;
+}
+
+.price_cards .about__title-wrapper {
+    margin-bottom: 90px;
+}
+
+
+/* /////////////////////////////////// */
+
+
+/* ///////////////FAQ//////////////// */
+
+.faq_questions_item a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #363636;
+    background: #FFFFFF;
+    border: 0.5px solid #E8E8E8;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    padding: 21px 40px;
+    transform: skewX(-15deg);
+    transition: 0.3s;
+}
+
+.faq_questions_item a:hover {
+    transform: skewX(-15deg) scale(1.02);
+    background: #F5F5F5;
+}
+
+.faq_questions {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.faq_questions_content .faq_questions_item {
+    margin-bottom: 25px;
+}
+
+.faq_questions_content .faq_questions_item:last-child {
+    margin-bottom: 0px;
+}
+
+.faq_questions .faq_questions_title .title_h2 {
+    margin-bottom: 60px;
+}
+
+
+/* /////////////////////////////////// */

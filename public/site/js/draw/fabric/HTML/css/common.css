@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('BeVietnam-Medium.woff2') format('woff2'),
+        url('BeVietnam-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('BeVietnam-SemiBold.woff2') format('woff2'),
+        url('BeVietnam-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('BeVietnam-Bold.woff2') format('woff2'),
+        url('BeVietnam-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('BeVietnam-Regular.woff2') format('woff2'),
+        url('BeVietnam-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('BeVietnam-Light.woff2') format('woff2'),
+        url('BeVietnam-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('BeVietnam-ExtraBold.woff2') format('woff2'),
+        url('BeVietnam-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+.strikeout { 
+  position: relative;
+}
+.strikeout::after {
+  border-bottom: 0.1em solid #F00;
+  content: "";
+  left: 0;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 54%;
+  transform:rotate(-10deg);
+  -webkit-transform:rotate(-10deg);
+}
+/*=========================
+CSS FOR ELEMEMT SHOW HIDE
+===========================*/
+a.bnrbtn, .s1btn, .s2btn, .s3btn, .s4btn, .s5btn{
+	height:68px;
+	width:290px;
+	box-sizing:border-box;
+	border:2px solid #00b86c;
+	border-radius:2px;
+	outline:none;
+	display:block;
+	margin:36px 0 0 0;
+	font-weight:800;
+	font-size:26px;
+	line-height:60px;
+	color:#00b86c;
+	text-align:center;
+}
+.s1btn, .s2btn, .s3btn, .s4btn, .s5btn{
+	height:48px;
+	width:180px;
+	line-height:40px;
+	font-size:18px;
+	margin:50px 0 0 0;
+}
+.s2btn{
+	background:none;
+	margin:40px 0 0 0;
+}
+.s3btn{margin:12px auto 0 auto;}
+.s4btn{margin:14px auto 0 auto;}
+.s5btn{margin:40px 0 0 0;}
+@media only screen and (max-width: 1013px){
+a.bnrbtn{margin:20px auto 0 auto;}
+.s1btn, .s2btn{margin:30px 0 0 0;}
+.s5btn{margin:30px 0 0 0;}
+}
+@media only screen and (max-width: 767px){
+.s1btn{margin:30px auto 0 auto;display:block;}
+.s2btn{margin:30px auto 0 auto;}
+a.bnrbtn, .s1btn, .s2btn, .s3btn, .s4btn, .s5btn{width:220px;}
+.s5btn{margin:25px auto 0 auto;}
+}
+@media only screen and (max-width: 479px){
+a.bnrbtn{height:58px;line-height:48px;width:250px;}
+.s3btn-shop{width:94%;}
+}
+/*---------------------------*/
+.hide-desk, .show-479, .show-tab, .show-767, .show-400, .show-340, .show-359, .show-500 {display:none;}
+.hide-400, .hide-479{display:inline-block;}
+@media only screen and (max-width: 1179px){
+.show-desk{display:block;}
+.show-hide{display:none;}
+}
+@media only screen and (max-width: 1013px){
+.show-tab{display:block;}
+.hide-tab{display:none;}
+}
+@media only screen and (max-width: 767px){
+.hide-767, .hide-desk{display:none;}
+.show-767{display:block;}
+}
+@media only screen and (max-width: 570px){
+.hide-570{display:none;}
+}
+@media only screen and (max-width: 500px){
+.hide-500{display:none;}
+.show-500{display:block;}
+}
+@media only screen and (max-width: 479px){
+.show-479{display:block;}
+.hide-479, .tab-video{display:none;}
+}
+@media only screen and (max-width: 400px){
+.show-400{display:block;}
+.hide-400{display:none;}
+}
+@media only screen and (max-width: 359px){
+.show-359{display:block;}
+}
+@media only screen and (max-width: 340px){
+.show-340{display:block;}
+}

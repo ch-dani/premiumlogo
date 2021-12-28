@@ -1,0 +1,121 @@
+.module__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.module__pagination li a.page,
+.module__pagination li a.ellipsis {
+    font-weight: 500;
+    font-size: 18px;
+    color: #363636;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module__pagination li a.ellipsis {
+    pointer-events: none;
+}
+
+.module__pagination li a.page.active,
+.module__pagination li a.page:hover,
+.module__pagination .pagination-arrow:hover {
+    color: #fff;
+    background: #31D955;
+}
+
+.module__pagination .pagination-arrow:hover svg path {
+    fill: #fff;
+}
+
+.module__pagination li:nth-last-of-type(2) a.page {
+    margin-right: 0;
+}
+
+.module__pagination .prev {
+    margin-right: 30px;
+}
+
+.module__pagination .next {
+    margin-left: 30px;
+}
+
+.module__pagination .pagination-arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module__pagination .pagination-arrow.disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: none;
+}
+
+.body_overflow {
+    overflow: hidden;
+}
+
+.contnetnt_wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ps__rail-x {
+    display: none !important;
+}
+
+.scroll_box {
+    position: relative;
+}
+
+.popup_pagination {
+    margin: 20px 0;
+}
+
+@media (max-width: 1170px) {
+    .dh_tool_btn img {
+        display: none;
+    }
+
+    .bg_dashboard > span {
+        display: none;
+    }
+
+    .btn_save {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .dh_tool_btn {
+        font-size: 13px !important;
+        padding: 5px !important;
+    }
+
+    .dh_btn {
+        font-size: 10px !important;
+    }
+}

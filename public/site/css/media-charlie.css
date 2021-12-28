@@ -1,0 +1,31 @@
+@media (max-width: 991px) {
+    .post-big {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-bottom__thumb img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .timonial__inner {
+        flex-wrap: nowrap;
+    }
+
+    .testimonial__left {
+        flex-wrap: nowrap;
+        width: 100%;
+        /*padding: 30px;*/
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+}

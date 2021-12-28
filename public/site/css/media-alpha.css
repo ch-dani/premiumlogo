@@ -1,0 +1,242 @@
+@media (max-width: 1199.98px) {
+    .module__social {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .testimonial__inner {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .testimonial__left, .testimonial__customer {
+        padding: 0;
+    }
+
+    .testimonial__customer {
+        margin-top: 20px;
+    }
+
+    .team_img_wrapper {
+        height: 220px;
+    }
+
+    .advantages_txt {
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    .header-cover__buttons, .header-cover__buttons-list {
+        position: static;
+        padding-bottom: 72px;
+        flex-wrap: wrap;
+    }
+
+    .header-cover__buttons-list .btn, .header-cover__buttons .btn {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .wrapper_preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_line .row .col-xl-4:first-child,
+    .top_line .wrapper_language {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+    }
+
+    .wrapper_mobile_menu {
+        position: fixed;
+        width: 100%;
+        height: calc(100vh - 66px);
+        background: #FFFFFF;
+        z-index: 999;
+        left: -100%;
+        top: 65px;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        overflow-y: auto;
+    }
+
+    .wrapper_mobile_menu.open {
+        left: 0;
+        transition: 0.3s;
+    }
+
+    .module__main_menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_bottom_item.language .switch-language {
+        margin-left: 0;
+    }
+
+    .languagepicker {
+        right: auto;
+        width: 280px;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    header .top_line {
+        height: 66px;
+        display: flex;
+        align-items: center;
+    }
+
+    .module__search_select form {
+        flex-direction: column;
+        align-items: flex-start;
+        min-width: auto;
+        box-shadow: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .module__search_select form:before {
+        content: none;
+    }
+
+    .module__search_select .btn {
+        margin-left: 0;
+    }
+
+    .module__search_select .default_input, .module__search_select .default_select {
+        border-radius: 12px;
+        width: 100%;
+    }
+
+    .module__search_select .default_input {
+        margin-bottom: 10px;
+    }
+
+    .module__search_select {
+        flex-direction: column !important;
+        margin: 50px 0 !important;
+    }
+
+    .create_logo_now {
+        padding-bottom: 0 !important;
+        padding-top: 50px !important;
+    }
+
+    .header-cover.screen-height {
+        min-height: 750px;
+    }
+
+    .title_h1 {
+        font-size: 36px;
+        line-height: 107.4%;
+    }
+
+    .sub_title {
+        line-height: 140%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .dashboard-header .container {
+        flex-direction: column;
+    }
+
+    .checkout2 .dashboard-header__logo {
+        margin: 0 !important;
+    }
+
+    .logo_header {
+        height: auto !important;
+    }
+
+    .price_card {
+        margin-top: 0px;
+        padding-top: 0 !important;
+    }
+
+    .price_card .col-xl-4 .card {
+        margin-bottom: 30px;
+        position: static;
+    }
+
+    .price_card .col-xl-4:last-child .card {
+        margin-bottom: 0;
+    }
+
+    /*.why_item {*/
+    /*    margin-bottom: 0;*/
+    /*}*/
+    .testimonial__left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .testimonial__avatar {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .testimonial__text {
+        font-size: 19px;
+    }
+
+    .about.about_2 .about__text {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .testimonial__inner {
+        padding: 20px;
+    }
+
+    .about.about_2 {
+        padding-bottom: 0 !important;
+    }
+
+    .module__slider_company .slick-arrow {
+        display: none !important;
+    }
+
+    main section {
+        padding: 50px 0 !important;
+    }
+
+    .about__text {
+        padding-right: 0;
+        margin-bottom: 70px;
+    }
+
+    .about__title-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .title_h2 {
+        line-height: 130%;
+    }
+
+    .professional_logos .wrapper_logos .logo {
+        width: calc(100% - 30px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header-cover__buttons-list .btn, .header-cover__buttons .btn {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+

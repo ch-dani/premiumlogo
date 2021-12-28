@@ -1,0 +1,54 @@
+.relative{
+    position: relative;
+}
+
+.formsLoader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.37);
+    left: 0;
+    top: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.formsLoader .lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.formsLoader .lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.formsLoader .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+.testimonial_page .testimonial__outer{
+    margin-bottom: 60px;
+}
+.testimonial_page .testimonial__outer:last-child{
+    margin-bottom: 0;
+}
+.testimonial_page .testimonial__outer .testimonial__customer{
+    display: none;
+}
+
+.why_icon_wrapper img{
+    transform: skew(10deg);
+}
+
+footer .bottom_footer .copyright a{
+    color: #969696;
+}
